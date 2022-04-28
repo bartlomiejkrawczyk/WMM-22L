@@ -109,6 +109,8 @@ video/mp4
 audio/mp4
 ```
 
+Wideo jest przetwarzane kodekiem AVC, a dwukanałowe audio kodekiem AAC.
+
 **Liczba reprezentacji:**
 ```py
 video: 3
