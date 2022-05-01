@@ -121,3 +121,24 @@ audio: 1
 ```
 26
 ```
+
+> Na podstawie uzyskanych wyników porównaj analizowane metody strumieniowania danych multimedialnych, określ możliwości ich zastosowania do dystrybucji programów telewizyjnych.
+
+Metoda wykorzystana w pierwszym przykładzie:
+- pobiera cały film / jego dużą część przed odtworzeniem
+- nie mamy możliwości zmiany jakości odbieranego filmu - w zależności od przepływności naszego łącza
+- wymaga całkiem dużego bufora na pobrane części programów
+- raczej nie ma zastosowania do dystrybucji telewizyjnych, ponieważ:
+  - pobieramy całe programy na raz, programy telewizyjne często są bardzo długie
+  - opóźnienie na filmach `na żywo` byłoby bardzo duże
+  - w trakcie przesyłania nie jesteśmy w stanie wpływać na jakość
+
+Metoda adaptacyjnego strumieniowania MPEG-DASH:
+- film jest podzielony na mniejsze fragmenty
+- dostępne jest kilka jakości danych fragmentów, aby dostępna była najlepsza jakość filmu przy naszej aktualnej przepływności
+- możemy odtwarzać film fragmentami, nie musimy pobierać całości, żeby zacząć oglądać
+- nie wymaga bardzo dużego bufora - możemy ściągać fragmenty dopiero, gdy ich potrzebujemy
+- wykorzystanie adaptacyjnego strumieniowania danych ma więcej sensu w dystrybucjach telewizji:
+  - długie programy dzielone na fragmenty, aby pobierać jedynie oglądaną część programu
+  - filmy `na żywo` mogą być dzielone na fragmenty i streamowane z niewielkim opóźnieniem
+  - każdy fragment może być dostępny w różnych jakościach, aby każdy mógł oglądać, nawet przy gorszym zasięgu
