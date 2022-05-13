@@ -161,7 +161,7 @@ Tutaj także utracono niskie częstotliwości mowy.
 
 W przypadku mowy męskiej różnica między nagraniami jest słyszalna.
 
-Energia w mowie męskiej jest skupiona na niższych częstotliwościach. Odfiltrwując te częstotliwości tracimy całkiem istotną część mowy.
+Energia w mowie męskiej jest skupiona na niższych częstotliwościach. Odfiltrowując te częstotliwości tracimy całkiem istotną część mowy.
 
 --- 
 
