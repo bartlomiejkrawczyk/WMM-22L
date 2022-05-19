@@ -1,6 +1,6 @@
 | Statystyka                    | Ground Truth | HAAR | HOG z SVM | CNN |
 |-------------------------------|--------------|------|-----------|-----|
-| Liczba wszystkich detekcji    | 121          | 94   | 64        | 84  |
-| Liczba poprawnych detekcji    | 121          | 69   | 63        | 82  |
-| Liczba niepoprawnych detekcji | 0            | 25   | 1         | 2   |
-| Liczba niewykrytych twarzy    | 0            | 52   | 58        | 39  |
+| Liczba wszystkich detekcji    | 153          | 94   | 64        | 84  |
+| Liczba poprawnych detekcji    | 153          | 70   | 64        | 84  |
+| Liczba niepoprawnych detekcji | 0            | 24   | 0         | 0   |
+| Liczba niewykrytych twarzy    | 0            | 83   | 89        | 69  |
