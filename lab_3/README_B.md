@@ -26,6 +26,7 @@ Bartłomiej Krawczyk, 310774
 ## Wnioski
 
 - takie same słowa wypowiadane przez różne syntezatory wyglądają na spektrogramach bardzo podobnie
+- możliwe jest rozpoznanie poszczególnych słów na spektrogramach
 
 # Rozpoznawanie mowy - STT
 
