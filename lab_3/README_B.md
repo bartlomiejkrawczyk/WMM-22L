@@ -30,9 +30,6 @@ Bartłomiej Krawczyk, 310774
 
 # Rozpoznawanie mowy - STT
 
-3. W sekcji "Rozpoznawanie mowy - STT" proszę uruchomić każdy z algorytmów po kolei. Plik dźwiękowy może być plikiem wcześniej nagranym przez Was w Audacity (w języku angielskim) albo nagrany za pomocą notatnika (opcja upload/record w podsekcji "Nagranie z mikrofonu lub plik zewnętrzny"). UWAGA: tylko język angielski!
-    - zapisać nagrany tekst w postaci pliku dźwiękowego, a w sprawozdaniu zapisać teksty, które udało sie rozpoznać każdemu z algorytmów (CMUSphinx, Google, Mozilla)
-
 **Wypowiadany tekst:**
 ```
 Time flies like an arrow, but fruit flies like a banana.
