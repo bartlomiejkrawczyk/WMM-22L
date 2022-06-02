@@ -21,17 +21,11 @@ LIGHT_POSITION = (3, 0, 5)
 VIEW_POSITION = (5, 0, 0)
 
 SHININESS = 5
-```
 
-```c++
-// Surroundings factor
-float ambient = 0.6;
-// Light diffuse factor
-float diffuse = 0.6;
-// Reflectivity factor
-float specular = 0.3;
+AMBIENT = 0.6
+DIFFUSE = 0.6
+SPECULAR = 0.3
 ```
-
 
 ## Położenie źródła światła
 
